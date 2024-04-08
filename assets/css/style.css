@@ -408,7 +408,7 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -1408,3 +1408,228 @@ section {
     margin: -20px 0 30px 0;
   }
 }
+
+.services_section{
+  width: 100%;
+  float: left;
+  padding-bottom: 90px;
+}
+.services_taital{
+  width: 100%;
+  float: left;
+  font-size: 36px;
+  color: #090808;
+  text-align: center;
+  text-transform: uppercase;
+}
+.many_taital{
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #090808;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+.services_section2{
+  width: 100%;
+  float: left;
+}
+.furnitures_text {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  color: #090808;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+.dummy_text{
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #090808;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.read_bt_main{
+  width: 60%;
+  margin: 20 auto;
+  text-align: center;
+}
+.read_bt {
+  width: 15%;
+  float: left;
+  margin-top: 0px;
+}
+.read_bt a{
+  width: 90%;
+  float: left;
+  font-size: 18px;
+  color: #000000;
+  background-color: #E4C899;
+  text-align: center;
+  padding: 5px 0px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.read_bt a:hover{
+  color: #ffffff;
+  background-color: #000
+  ;
+}
+.about_section{
+  width: 100%;
+  float: left;
+  background-color: #ffb607;
+  height: auto;
+  padding-bottom: 90px;
+}
+.image_1{
+  width: 100%;
+  float: left; 
+}
+
+.about_text {
+  width: 100%;
+  float: left;
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.lorem_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: 0px;
+  padding-top: 40px;
+}
+.read_bt1 {
+  width: 30%;
+  float: left;
+  margin-top: 70px;
+}
+.read_bt1 a{
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #070201;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.read_bt1 a:hover{
+  color: #000;
+  background-color: #ffffff;
+}
+.furnitures_section {
+  width: 100%;
+  float: left;
+  padding-bottom: 90px;
+}
+.our_text{
+  width: 100%;
+  float: left;
+  font-size: 36px;
+  color: #121111;
+  text-transform: uppercase;
+  text-align: center;
+}
+.ipsum_text{
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #090808;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+.furnitures_section2{
+  width: 100%;
+  float: left;
+}
+
+.container_main {
+position: relative;
+width: 100%;
+max-width: 100%;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.image {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.layout_padding {
+     padding-top: 0px;
+     padding-bottom: 20px;
+}
+
+.services_section2 { padding-top: 30px; }
+.icon_1 { padding-top: 30px; }
+.icon_1{
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.centralizar {
+ text-align: center;
+}
+.cards-1 {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+.cards-1 .h2-heading {
+	margin-bottom: 3.5rem;
+}
+
+.cards-1 .card {
+	max-width: 21rem;
+	margin-right: auto;
+	margin-bottom: 3.5rem;
+	margin-left: auto;
+	padding: 0;
+	border: none;
+}
+
+.cards-1 .card-image {
+	max-width: 16rem;
+	margin-right: auto;
+	margin-bottom: 2rem;
+	margin-left: auto;
+}
+
+.cards-1 .card-title {
+	margin-bottom: 0.5rem;
+}
+
+.cards-1 .card-body {
+	padding: 0;
+}
+	/* Description */
+	.cards-1 .card {
+		display: inline-block;
+		width: 30rem;
+		max-width: 100%;
+		margin-right: 1rem;
+		margin-left: 1rem;
+		vertical-align: top;
+	}
+
+	.cards-1 .card-image {
+		width: 9rem;
+	}
+	/* end of description */
