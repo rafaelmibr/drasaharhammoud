@@ -1633,3 +1633,63 @@ height: auto;
 		width: 9rem;
 	}
 	/* end of descriptin */
+  .civil {
+    background-color: #E4C899;
+  }
+  
+  .penal {
+    background-color: #E4C899;
+  }
+  
+  .tributario {
+    background-color: #E4C899;
+  }
+  
+  .empresarial {
+    background-color: #E4C899;
+  }
+  
+  .condominial {
+    background-color: #E4C899;
+  }
+  
+  .bancario {
+    background-color: #E4C899;
+  }
+  .keywords {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza horizontalmente */
+  }
+  
+  .keywords strong {
+    margin-right: 10px; /* Espaço entre as palavras */
+  }
+  
+  .keywords strong:last-child {
+    margin-right: 0; /* Remove o espaçamento para a última palavra */
+  }
+  
+  .keywords strong span {
+    background-color: #E4C899;
+    padding: 5px 10px;
+    border-radius: 20px; /* Arredondamento do fundo */
+    color: black; /* Cor do texto */
+    font-weight: bold; /* Negrito */
+  }
+  
+  @media screen and (max-width: 600px) {
+    .keywords {
+      flex-direction: column; /* Ajusta para uma coluna em dispositivos menores */
+      align-items: center; /* Centraliza verticalmente em dispositivos menores */
+    }
+  
+    .keywords strong {
+      margin-bottom: 20px; /* Espaçamento entre os botões em dispositivos menores */
+    }
+  
+    .keywords strong:last-child {
+      margin-bottom: 0; /* Remove o espaçamento para o último botão */
+    }
+  }
+  
