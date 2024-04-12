@@ -448,8 +448,10 @@ h6 {
 
 @media (max-width: 768px) {
   #hero {
+    background: url("../img/drasaharmobile.png") top center;
     text-align: center;
-    background-position: 80% center;
+    background-position: 50% center;
+    background-size: 120%;
   }
 
   #hero .container {
@@ -1609,7 +1611,13 @@ height: auto;
       padding-bottom: 2rem;
       text-align: center;
   }
+  .cards-1 .card {
+    max-width: 0.1rem; /* Reduz o preenchimento do card para 1rem */
+}
 
+.cards-1 .card.p-4 {
+  max-width: 90%; /* Define um novo preenchimento de 0.5rem para o card na versão mobile */
+}
   .cards-1 .card-image {
       max-width: 100%; /* Ajusta a largura para preencher a tela */
       margin-bottom: 2rem;
